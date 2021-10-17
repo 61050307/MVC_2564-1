@@ -1,0 +1,224 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "",
+      "version": "2",
+      "title": "CPU"
+    },
+    "host": "localhost:6060",
+    "tags": [
+      {
+        "name": "Cpu"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/use": {
+        "post": {
+          "tags": [
+            "Cpu"
+          ],
+          "summary": "insert Time",
+          "description": "insert Time",
+          "operationId": "insert Time",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "use_cpu",
+              "in": "formData",
+              "description": "use_cpu3",
+              "required": false,
+              "type": "integer"
+            },
+            {
+              "name": "time",
+              "in": "formData",
+              "description": "time",
+              "required": false,
+              "type": "number"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success to deposit",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 200
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Success to deposit your Your deposit is 300"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 400
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Bad Request"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "unAuthenticate",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 500
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "fail connect database"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/showmax": {
+        "get": {
+          "tags": [
+            "Cpu"
+          ],
+          "summary": "insert Time",
+          "description": "show max",
+          "operationId": "show max",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Success to deposit",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 200
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Success to deposit your Your deposit is 300"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 400
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Bad Request"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "unAuthenticate",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 500
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "fail connect database"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/showcurrent": {
+        "get": {
+          "tags": [
+            "Cpu"
+          ],
+          "summary": "insert Time",
+          "description": "select 15 from Table",
+          "operationId": "select 15 from Table",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Success to deposit",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 200
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Success to deposit your Your deposit is 300"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 400
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Bad Request"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "unAuthenticate",
+              "schema": {
+                "properties": {
+                  "statusCode": {
+                    "type": "string",
+                    "example": 500
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "fail connect database"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
