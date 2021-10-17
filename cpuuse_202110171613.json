@@ -1,0 +1,59 @@
+{
+"cpuuse": [
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : 5.0,
+		"USE_CPU" : 2
+	},
+	{
+		"Time" : 5.0,
+		"USE_CPU" : 2
+	},
+	{
+		"Time" : 5.0,
+		"USE_CPU" : 2
+	},
+	{
+		"Time" : null,
+		"USE_CPU" : null
+	},
+	{
+		"Time" : 5.5,
+		"USE_CPU" : 23
+	}
+]}
